@@ -29,5 +29,5 @@ jobs:
     - name: Deploy
       run: sed -i s/KV_NAME/${{ secrets.KV_NAME }}/g wrangler.toml
       with:
-        apiToken: ${{ '4tDulzQcu9qUPA9psQCHnaA187c4XUeXSHz6pIZA' }}
+        apiToken: ${{ 'mR0w7vDPKE8ThzNqs1ETcGidVEo4S5SVJq2lwi67' }}
         accountId: ${{ 'b72d2be01eb7f19ac3fbd0ccbc2b65b9' }}
